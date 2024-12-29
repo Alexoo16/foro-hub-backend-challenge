@@ -43,48 +43,50 @@ El proyecto está organizado en varios paquetes, cada uno responsable de una par
   - **Request body**: 
     ```json
     {
-      "email": "usuario@dominio.com",
-      "password": "contraseña"
+       "email":"alexoo.mar@gmail.com",
+       "contrasenha":"123456"
     }
     ```
   - **Response**: Retorna un JWT válido para el usuario autenticado.
 
 ### Gestión de Tópicos
-- **GET /topics**: Obtener todos los tópicos.
-- **GET /topics/{id}**: Obtener un tópico por su ID.
-- **POST /topics**: Crear un nuevo tópico.
+- **GET /topico**: Obtener todos los tópicos.
+- **GET /topico/{id}**: Obtener un tópico por su ID.
+- **POST /topico**: Crear un nuevo tópico.
   - **Request body**:
     ```json
     {
-      "titulo": "Título del Tópico",
-      "mensaje": "Mensaje del tópico",
-      "curso_id": 1
+       "titulo": "Introducción a Machine Learning",
+       "mensaje": "Explora los conceptos básicos de Machine Learning y cómo aplicar técnicas fundamentales para resolver problemas prácticos.",
+       "estado": "ABIERTO",
+       "curso_id": 5
     }
+
     ```
-- **PUT /topics/{id}**: Actualizar un tópico.
+- **PUT /topico/{id}**: Actualizar un tópico.
   - **Request body**:
     ```json
     {
-      "titulo": "Nuevo título",
-      "mensaje": "Nuevo mensaje",
-      "estado": "ACTIVO"
+       "id": 2,
+       "mensaje": "Este es el mensaje actualizado del sexo.",
+       "estado": "ABIERTO"
     }
     ```
-- **DELETE /topics/{id}**: Eliminar un tópico.
+- **DELETE /topico/{id}**: Eliminar un tópico.
 
 ### Gestión de Respuestas
-- **GET /responses**: Obtener todas las respuestas.
-- **GET /responses/{id}**: Obtener una respuesta por su ID.
-- **POST /responses**: Crear una nueva respuesta.
+- **GET /respuesta**: Obtener todas las respuestas.
+- **GET /respuesta/{id}**: Obtener una respuesta por su ID.
+- **POST /respuesta**: Crear una nueva respuesta.
   - **Request body**:
     ```json
     {
-      "mensaje": "Respuesta al tópico",
-      "topico_id": 1,
-      "solucion": false
+	   "mensaje":"Hola, Interesante respuesta",
+	   "topico_id":2,
+	   "respuestaPadre_id":5
     }
     ```
-- **PUT /responses/{id}**: Actualizar una respuesta.
+- **PUT /respuesta/{id}**: Actualizar una respuesta.
   - **Request body**:
     ```json
     {
@@ -92,30 +94,8 @@ El proyecto está organizado en varios paquetes, cada uno responsable de una par
       "solucion": true
     }
     ```
-- **DELETE /responses/{id}**: Eliminar una respuesta.
+- **DELETE /respuesta/{id}**: Eliminar una respuesta.
 
-### Gestión de Usuarios
-- **GET /users**: Obtener todos los usuarios.
-- **GET /users/{id}**: Obtener un usuario por su ID.
-- **POST /users**: Crear un nuevo usuario.
-  - **Request body**:
-    ```json
-    {
-      "nombre": "Nombre del Usuario",
-      "email": "usuario@dominio.com",
-      "contrasenha": "contraseña",
-      "perfil_id": 1
-    }
-    ```
-- **PUT /users/{id}**: Actualizar un usuario.
-  - **Request body**:
-    ```json
-    {
-      "nombre": "Nuevo nombre",
-      "email": "nuevo@dominio.com"
-    }
-    ```
-- **DELETE /users/{id}**: Eliminar un usuario.
 
 ## Diagrama de la Base de Datos
 A continuación se muestra el diagrama de la base de datos para el proyecto:
