@@ -3,6 +3,7 @@ package com.alexoo.foro_hub.foro_hub.controller;
 import com.alexoo.foro_hub.foro_hub.domain.ValidationException;
 import com.alexoo.foro_hub.foro_hub.domain.topico.*;
 import com.alexoo.foro_hub.foro_hub.domain.topico.validacion.ValidacionEliminarRespuesta;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/respuesta")
+@SecurityRequirement(name = "bearer-key")
 public class RespuestaController {
 
     @Autowired
