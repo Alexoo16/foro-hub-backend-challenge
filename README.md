@@ -120,7 +120,7 @@ El proyecto está organizado en varios paquetes, cada uno responsable de una par
 ## Diagrama de la Base de Datos
 A continuación se muestra el diagrama de la base de datos para el proyecto:
 
-<img src="https://github.com/user-attachments/assets/399143429-249dd885-08dc-484c-adb7-2267e7e56c15" alt="Diagrama de Base de Datos" style="width: 450px; height: auto;">
+<img src="/assets/diagramaDB.png" alt="Diagrama de Base de Datos" style="width: 450px; height: auto;">
 
 
 ## Configuración del Proyecto
@@ -149,4 +149,5 @@ El servidor se iniciará en http://localhost:8080.
 
 ## Sobre el Desarrollador
 Mi nombre es Alexander Jesús Centeno Cerna y soy estudiante de Ingeniería de Sistemas en la Universidad Nacional Mayor de San Marcos (UNMSM). Tengo una gran pasión por la tecnología, especialmente en el desarrollo de software, análisis de datos y gestión de procesos. Me interesa trabajar con herramientas modernas y aprender constantemente para poder afrontar desafíos en el ámbito profesional, contribuyendo al crecimiento de proyectos innovadores como este.
+
 <img src="https://github.com/user-attachments/assets/05880886-01b3-49ec-bad3-5553be56523d" alt="Imagen del Desarrollador" style="width: 450px; height: auto;">
