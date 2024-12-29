@@ -13,9 +13,7 @@
 6. [Configuración del Proyecto](#configuración-del-proyecto)
    - [Configuración de la Base de Datos](#configuración-de-la-base-de-datos)
    - [Ejecutar el Proyecto](#ejecutar-el-proyecto)
-7. [Contribuciones](#contribuciones)
-8. [Licencia](#licencia)
-9. [Acerca de mí](#acerca-de-mí)
+7. [Sobre el Desarrollador](#sobre-el-desarrollador)
 
 ## Descripción
 Este proyecto es un desafío de Alura implementado con Spring Boot, que permite gestionar un foro de discusión. Los usuarios pueden interactuar con temas, responder y gestionar sus perfiles, y los administradores pueden realizar acciones como agregar cursos y gestionar usuarios. El proyecto emplea autenticación de usuarios y está respaldado por una base de datos MySQL.
@@ -122,7 +120,7 @@ El proyecto está organizado en varios paquetes, cada uno responsable de una par
 ## Diagrama de la Base de Datos
 A continuación se muestra el diagrama de la base de datos para el proyecto:
 
-![Diagrama de la Base de Datos](./docs/db-diagram.png)
+![Diagrama de la Base de Datos](./images/db-diagram.png)
 
 ## Configuración del Proyecto
 
@@ -137,3 +135,16 @@ spring.datasource.password=${DB_Password}
 api.security.secret=${JWT_SECRET}
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+```
+Además, asegúrate de que las variables de entorno DB_Name, DB_UserName, DB_Password y JWT_SECRET estén configuradas correctamente en tu entorno.
+
+### Ejecutar el proyecto
+1. Clona el repositorio:
+git clone https://github.com/tu_usuario/foro-hub.git
+2. Accede al directorio del proyecto:
+cd foro-hub
+3. Ejecuta el proyecto
+El servidor se iniciará en http://localhost:8080.
+
+## Sobre el Desarrollador
+Mi nombre es Alexander Jesús Centeno Cerna y soy estudiante de Ingeniería de Sistemas en la Universidad Nacional Mayor de San Marcos (UNMSM). Tengo una gran pasión por la tecnología, especialmente en el desarrollo de software, análisis de datos y gestión de procesos. Me interesa trabajar con herramientas modernas y aprender constantemente para poder afrontar desafíos en el ámbito profesional, contribuyendo al crecimiento de proyectos innovadores como este.
