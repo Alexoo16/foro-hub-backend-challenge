@@ -120,7 +120,8 @@ El proyecto está organizado en varios paquetes, cada uno responsable de una par
 ## Diagrama de la Base de Datos
 A continuación se muestra el diagrama de la base de datos para el proyecto:
 
-![Diagrama de la Base de Datos]([./images/db-diagram.png](https://private-user-images.githubusercontent.com/133540626/399143429-249dd885-08dc-484c-adb7-2267e7e56c15.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU0NTcwMDUsIm5iZiI6MTczNTQ1NjcwNSwicGF0aCI6Ii8xMzM1NDA2MjYvMzk5MTQzNDI5LTI0OWRkODg1LTA4ZGMtNDg0Yy1hZGI3LTIyNjdlN2U1NmMxNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIyOVQwNzE4MjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MmE0NWY1MDY3M2ZkNjg4MTlhYWNhNmE5OWMwMjFhNzRjMDc4ZjIzMGUxODM3ODRmZDQxYzQxMTZhNTg5MGJjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PIGMq5u-SyWtyghFghGmGrvQhCRe6mQMZRFPigSGtyo))
+<img src="https://github.com/user-attachments/assets/399143429-249dd885-08dc-484c-adb7-2267e7e56c15" alt="Diagrama de Base de Datos" style="width: 450px; height: auto;">
+
 
 ## Configuración del Proyecto
 
