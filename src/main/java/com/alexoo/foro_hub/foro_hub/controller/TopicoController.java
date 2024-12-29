@@ -1,17 +1,13 @@
 package com.alexoo.foro_hub.foro_hub.controller;
 
 import com.alexoo.foro_hub.foro_hub.domain.ValidationException;
-import com.alexoo.foro_hub.foro_hub.domain.curso.CursoRepository;
 import com.alexoo.foro_hub.foro_hub.domain.topico.*;
 import com.alexoo.foro_hub.foro_hub.domain.topico.validacion.TopicoService;
-import com.alexoo.foro_hub.foro_hub.domain.topico.validacion.ValidacionEliminarTopico;
-import com.alexoo.foro_hub.foro_hub.domain.usuario.Usuario;
-import com.alexoo.foro_hub.foro_hub.domain.usuario.UsuarioRepository;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -20,6 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/topico")
+@SecurityRequirement(name = "bearer-key")
 public class TopicoController {
 
     @Autowired
