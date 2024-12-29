@@ -13,7 +13,8 @@
 6. [Configuración del Proyecto](#configuración-del-proyecto)
    - [Configuración de la Base de Datos](#configuración-de-la-base-de-datos)
    - [Ejecutar el Proyecto](#ejecutar-el-proyecto)
-7. [Sobre el Desarrollador](#sobre-el-desarrollador)
+7. [Test del proyecto]
+8. [Sobre el Desarrollador](#sobre-el-desarrollador)
 
 ## Descripción
 Este proyecto es un desafío de Alura implementado con Spring Boot, que permite gestionar un foro de discusión. Los usuarios pueden interactuar con temas, responder y gestionar sus perfiles, y los administradores pueden realizar acciones como agregar cursos y gestionar usuarios. El proyecto emplea autenticación de usuarios y está respaldado por una base de datos MySQL.
@@ -26,6 +27,7 @@ Este proyecto es un desafío de Alura implementado con Spring Boot, que permite 
 - **Flyway**: Herramienta para la migración de bases de datos.
 - **Lombok**: Para reducir la cantidad de código repetitivo.
 - **JWT (JSON Web Tokens)**: Para la autenticación basada en tokens.
+- **Springdoc OpenAPI**: Para generar documentación interactiva de la API y pruebas usando Swagger UI.
 
 ## Estructura del Proyecto
 El proyecto está organizado en varios paquetes, cada uno responsable de una parte del sistema:
@@ -106,7 +108,7 @@ A continuación se muestra el diagrama de la base de datos para el proyecto:
 ## Configuración del Proyecto
 
 ### Configuración de la Base de Datos
-Asegúrate de tener MySQL instalado y configurado correctamente. Usa las siguientes variables de entorno para la configuración en el archivo `application.properties` o `application.yml`:
+Para configurar la base de datos en MySQL, asegúrate de tener MySQL instalado y crea una base de datos con el nombre que prefieras. Luego, incluye las siguientes variables de entorno en el archivo `application.properties` o `application.yml`:
 
 ```properties
 spring.application.name=foro-hub
@@ -126,6 +128,10 @@ git clone https://github.com/tu_usuario/foro-hub.git
 cd foro-hub
 3. Ejecuta el proyecto
 El servidor se iniciará en http://localhost:8080.
+
+## Test del Proyecto
+
+Para facilitar las pruebas, se ha integrado Swagger UI. Accede a la interfaz interactiva en http://localhost:8080/swagger-ui.html una vez que el proyecto esté en funcionamiento.
 
 ## Sobre el Desarrollador
 Mi nombre es Alexander Jesús Centeno Cerna y soy estudiante de Ingeniería de Sistemas en la Universidad Nacional Mayor de San Marcos (UNMSM). Tengo una gran pasión por la tecnología, especialmente en el desarrollo de software, análisis de datos y gestión de procesos. Me interesa trabajar con herramientas modernas y aprender constantemente para poder afrontar desafíos en el ámbito profesional, contribuyendo al crecimiento de proyectos innovadores como este.
