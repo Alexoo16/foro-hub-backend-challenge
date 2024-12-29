@@ -120,7 +120,7 @@ El proyecto está organizado en varios paquetes, cada uno responsable de una par
 ## Diagrama de la Base de Datos
 A continuación se muestra el diagrama de la base de datos para el proyecto:
 
-<img src="/assets/diagramaDB.png" alt="Diagrama de Base de Datos" style="width: 450px; height: auto;">
+<img src="/assets/Diagrama DB.png" alt="Diagrama de Base de Datos" style="width: 450px; height: auto;">
 
 
 ## Configuración del Proyecto
